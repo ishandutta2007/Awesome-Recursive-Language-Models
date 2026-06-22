@@ -7,7 +7,7 @@ Recursive models are heavily deployed in domains like source code analysis, wher
 Compilers and AI coding tools use recursive models to read and validate programming syntax. Code is naturally nested (if blocks inside loops inside unctions), making standard sequential modeling less optimal than processing raw Abstract Syntax Trees directly with tree-structured neural networks.
 
 ## Diagram
-`mermaid
+```mermaid
 graph TD
     Func[Function Definition] --> Signature[Signature]
     Func --> Body[Block]
@@ -15,7 +15,7 @@ graph TD
     Body --> Loop[For Loop]
     If --> Cond[Condition]
     If --> TrueBlock[True Branch]
-`
+```
 
 ## References
 - [A Novel Neural Source Code Representation based on Abstract Syntax Tree](https://arxiv.org/abs/1903.10705)
