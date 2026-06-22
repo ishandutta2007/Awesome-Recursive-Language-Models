@@ -10,7 +10,9 @@ Recursive Language Models operate on tree-structured data networks rather than s
 The progression of tree-structured deep learning models traces a clear path from early static parsing networks to adaptive, transformer-hybrid modern architectures.
 
 ```
-[Tree-LSTM] -------------> [Tree-GRU] -------------> [Tree-Transformer / RVT](Explicit Synax)           (Gated Tree Processing)    (Self-Attention + Geometry)
+[Tree-LSTM] -------------> 
+[Tree-GRU] -------------> 
+[Tree-Transformer / RVT](Explicit Synax)           (Gated Tree Processing)    (Self-Attention + Geometry)
 ```
 
 *   **Recursive Autoencoders (RAE, ~2011)**
