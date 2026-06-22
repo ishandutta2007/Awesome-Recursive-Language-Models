@@ -4,7 +4,7 @@
 The Tree-Transformer (around 2019-Present) represents the modern convergence of recursive structures and the highly successful Transformer architecture.
 
 ## Architecture & Mechanism
-It replaces classic recurrent matrix transformations with localized multi-head self-attention mechanisms bounded strictly by constitutional phrase structures. By integrating tree structures into self-attention, the model can capture hierarchical structures while benefiting from the parallelization and representation power of Transformers.
+It replaces classic recurrent matrix transformations with localized multi-head self-attention mechanisms bounded strictly by constituency phrase structures. By integrating tree structures into self-attention, the model can capture hierarchical structures while benefiting from the parallelization and representation power of Transformers.
 
 ## Diagram
 ```mermaid

@@ -28,7 +28,7 @@ flowchart LR
 | :--- | :--- | :--- | :--- |
 | [**Recursive Autoencoders (RAE)**](docs/rae.md) | The foundational era. RAEs learned vector representations of phrases by recursively merging pairs of words using a fixed neural net layer until the entire sentence was reduced to a single vector. | 2011 | [Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions](https://aclanthology.org/D11-1014/) |
 | [**Tree-LSTM**](docs/tree-lstm.md) | The core breakthrough. Generalized standard sequential LSTMs to tree-structured topologies. Instead of having a single previous hidden state, a Tree-LSTM unit can integrate hidden states from multiple child nodes simultaneously. | 2015 | [Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks](https://arxiv.org/abs/1503.00075) |
-| [**Recursive Transformer / Tree-Transformer**](docs/tree-transformer.md) | The modern convergence. Replaces classic recurrent matrix transformations with localized multi-head self-attention mechanisms bounded strictly by constitutional phrase structures. | 2019 | [Tree Transformer: Integrating Tree Structures into Self-Attention](https://arxiv.org/abs/1909.06639) |
+| [**Recursive Transformer / Tree-Transformer**](docs/tree-transformer.md) | The modern convergence. Replaces classic recurrent matrix transformations with localized multi-head self-attention mechanisms bounded strictly by constituency phrase structures. | 2019 | [Tree Transformer: Integrating Tree Structures into Self-Attention](https://arxiv.org/abs/1909.06639) |
 
 ---
 
@@ -67,7 +67,7 @@ Because recursive models excel at capturing nested hierarchical geometries, they
 
 ---
 
-##  Star History
+## Star History
 <div align="center">
 <a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Recursive-Language-Models&type=date&legend=bottom-right">
 <picture>
